@@ -13,9 +13,9 @@ export default {
           700: "#1a1d3a",
         },
         neon: {
-          blue: "#00d4ff",
-          purple: "#b000ff",
-          pink: "#ff006e",
+          blue: "#9d4edd",
+          purple: "#c77dff",
+          pink: "#ffd60a",
         }
       },
       fontFamily: {
