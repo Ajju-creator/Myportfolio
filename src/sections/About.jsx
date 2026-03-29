@@ -27,7 +27,7 @@ const About = () => {
           variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
         >
           <motion.p variants={fadeInUp}>
-            I am an Electronics and Communication Engineering student at SR University with a CGPA of <span className="text-neon-blue font-semibold">9.93</span>, passionate about building intelligent systems that combine AI, deep learning, and embedded technologies.
+            I am an Electronics and Communication Engineering student at SR University, passionate about building intelligent systems that combine AI, deep learning, and embedded technologies.
           </motion.p>
 
           <motion.p variants={fadeInUp}>
