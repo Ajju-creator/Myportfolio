@@ -405,6 +405,77 @@ section h2 {
     animation: slideDown 0.8s ease;
 }
 
+/* Skills Section */
+.skills {
+    background-color: white;
+    padding: 80px 20px;
+}
+
+.skills h2 {
+    color: var(--primary-color);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.skill-category {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border: 2px solid var(--secondary-color);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(157, 78, 221, 0.1);
+    transition: var(--transition);
+}
+
+.skill-category:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(157, 78, 221, 0.2);
+    border-color: var(--accent-color);
+}
+
+.skill-header {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    color: white;
+    padding: 1.5rem;
+    border-bottom: 3px solid var(--accent-color);
+}
+
+.skill-header h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding: 1.5rem;
+}
+
+.skill-item {
+    background: white;
+    color: var(--secondary-color);
+    padding: 0.6rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 2px solid var(--secondary-color);
+    transition: var(--transition);
+    display: inline-block;
+}
+
+.skill-item:hover {
+    background: var(--secondary-color);
+    color: white;
+    border-color: var(--accent-color);
+    transform: scale(1.05);
+}
+
 /* Experience Section */
 .experience {
     background-color: white;
@@ -770,6 +841,10 @@ section h2 {
     }
 
     .competencies-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-grid {
         grid-template-columns: 1fr;
     }
 }
