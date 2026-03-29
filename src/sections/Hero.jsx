@@ -56,7 +56,7 @@ export default function Hero() {
           className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-6 font-light"
           variants={item}
         >
-          <span className="text-neon-blue">ECE Student</span> @ SR University | <span className="text-neon-purple">AI/ML & Deep Learning</span> Engineer | <span className="text-neon-pink">Embedded Systems</span> Developer
+          <span className="text-neon-blue">AI/ML & Deep Learning</span> Engineer | <span className="text-neon-purple">Embedded Systems</span> Developer | <span className="text-neon-pink">RF & Antenna Engineering</span> | <span className="text-neon-blue">Java (DSA)</span>
         </motion.div>
 
         {/* Description */}
@@ -64,7 +64,7 @@ export default function Hero() {
           className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto leading-relaxed"
           variants={item}
         >
-          I build intelligent systems combining AI, deep learning, and embedded technologies to solve real-world problems. Passionate about Quantum Machine Learning, IoT innovation, and cutting-edge technology.
+          I build intelligent systems combining AI, deep learning, embedded systems, and RF engineering to solve real-world problems. Passionate about Quantum Machine Learning, IoT innovation, cutting-edge technology, and data structure optimization.
         </motion.p>
 
         {/* Buttons */}

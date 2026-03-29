@@ -3,34 +3,34 @@ import { motion } from 'framer-motion'
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Programming',
+      title: 'Programming Languages',
       color: 'from-neon-blue to-neon-purple',
-      skills: ['Python', 'C', 'Java', 'MATLAB', 'SQL']
+      skills: ['Python', 'C', 'Java (DSA)', 'MATLAB', 'SQL']
     },
     {
-      title: 'AI/ML',
+      title: 'AI / ML & Computer Vision',
       color: 'from-neon-purple to-neon-pink',
-      skills: ['TensorFlow', 'PyTorch', 'Pennylane', 'Qiskit']
+      skills: ['TensorFlow', 'PyTorch', 'Pennylane', 'Qiskit', 'Deep Learning', 'Computer Vision']
     },
     {
       title: 'Embedded & IoT',
       color: 'from-neon-pink to-neon-blue',
-      skills: ['Arduino', 'ESP32', 'GSM', 'GPS', 'Sensors']
+      skills: ['Arduino', 'ESP32', 'GSM', 'GPS', 'UART/SPI/I2C', 'Sensor Integration']
     },
     {
-      title: 'RF Engineering',
+      title: 'RF & Electronics',
       color: 'from-neon-blue to-neon-pink',
-      skills: ['HFSS', 'HSpice', 'Antenna Design', 'FSS', 'Electromagnetic Simulation']
+      skills: ['RF Engineering', 'Antenna Design', 'Electromagnetic Simulation', 'Signal Processing', 'FSS']
     },
     {
-      title: 'Tools & Platforms',
+      title: 'Tools & EDA',
       color: 'from-neon-blue to-neon-purple',
-      skills: ['LTSpice', 'HSpice', 'Tinkercad', 'Xilinx ISE', 'Cadence']
+      skills: ['LTSpice', 'HSpice', 'HFSS', 'Tinkercad', 'Xilinx ISE', 'Cadence', 'Git/GitHub', 'ThingSpeak']
     },
     {
       title: 'Core Concepts',
       color: 'from-neon-purple to-neon-pink',
-      skills: ['Data Structures', 'Machine Learning', 'Deep Learning', 'Signal Processing']
+      skills: ['Data Structures & Algorithms', 'Embedded Systems', 'Analog & Digital Electronics', 'Communication Systems']
     },
   ]
 
@@ -103,9 +103,9 @@ const Skills = () => {
           {[
             { name: 'Python & Data Science', level: 95 },
             { name: 'AI/ML & Deep Learning', level: 90 },
-            { name: 'Embedded Systems', level: 85 },
-            { name: 'IoT & Robotics', level: 85 },
-            { name: 'RF Engineering & Antenna Design', level: 80 },
+            { name: 'Embedded Systems & IoT', level: 85 },
+            { name: 'Java DSA & Problem Solving', level: 88 },
+            { name: 'RF Engineering & Antenna Design', level: 85 },
           ].map((skill, idx) => (
             <div key={idx}>
               <div className="flex justify-between mb-2">

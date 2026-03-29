@@ -8,51 +8,51 @@ const Experience = () => {
       company: 'NIT Warangal',
       period: '2024',
       description: [
-        'Worked on advanced deep learning research focused on video anomaly detection and intelligent systems',
-        'Designed and implemented a Quantum Vision Transformer integrated with temporal attention mechanisms to capture sequential dependencies and improve anomaly localization',
-        'Developed and experimented with multiple deep learning models including CNNs, RNNs, and transformer-based architectures to enhance detection accuracy and robustness',
-        'Built scalable training pipelines using TensorFlow and PyTorch, incorporating sensor-fusion techniques for real-time applications',
-        'Optimized models for performance under noisy and dynamic conditions, targeting real-world applications in surveillance, electronics systems, and signal processing'
+        'Worked on video anomaly detection using advanced deep learning techniques and quantum-inspired models',
+        'Developed Quantum Vision Transformer with temporal attention mechanisms to capture sequential dependencies and temporal patterns',
+        'Implemented CNN, RNN, and Transformer models with focus on accuracy and real-time performance',
+        'Built TensorFlow and PyTorch pipelines with sensor fusion for multi-modal learning and real-time inference',
+        'Applied optimization techniques for noisy and dynamic conditions in surveillance and industrial systems'
       ],
-      tags: ['TensorFlow', 'PyTorch', 'Quantum ML', 'Computer Vision', 'Transformers']
+      tags: ['TensorFlow', 'PyTorch', 'Quantum ML', 'Transformers', 'Computer Vision']
     },
     {
       title: 'AI/ML Intern',
       company: 'GemalNet',
       period: '2024',
       description: [
-        'Developed machine learning and deep learning models for predictive analytics and classification tasks',
-        'Performed advanced data preprocessing, feature engineering, and model evaluation to improve accuracy and generalization',
-        'Worked on real-world datasets and implemented end-to-end ML pipelines including training, validation, and optimization',
-        'Applied AI techniques to solve practical problems using Python, TensorFlow, and data-driven approaches',
-        'Contributed to production-ready machine learning solutions with focus on performance and scalability'
+        'Developed ML models for prediction and classification on real-world business datasets',
+        'Performed data preprocessing, feature engineering, and exploratory data analysis for improved model performance',
+        'Built end-to-end ML pipelines including data preparation, model training, validation, and deployment',
+        'Applied machine learning best practices to solve practical business problems and optimize model accuracy',
+        'Collaborated with team to deliver production-ready solutions with focus on scalability and maintainability'
       ],
-      tags: ['ML', 'Python', 'Data Science', 'TensorFlow', 'Analytics']
+      tags: ['Machine Learning', 'Python', 'Data Science', 'TensorFlow', 'Analytics']
     },
     {
       title: 'Deep Learning Intern',
       company: 'QManet (NIT Collaboration)',
       period: '2023',
       description: [
-        'Worked on advanced deep learning models for anomaly detection and intelligent data analysis',
-        'Designed and optimized neural network architectures for handling temporal and structured data',
-        'Focused on hyperparameter tuning, model optimization, and improving inference efficiency for real-time systems',
-        'Collaborated on research-oriented implementations involving modern deep learning techniques and model performance enhancement',
-        'Implemented sophisticated anomaly detection algorithms for industrial and scientific applications'
+        'Worked on neural networks and anomaly detection systems for intelligent data analysis',
+        'Optimized deep learning models for performance and real-time inference on edge devices',
+        'Applied hyperparameter tuning and model architecture optimization techniques',
+        'Implemented sophisticated anomaly detection algorithms for industrial and scientific applications',
+        'Collaborated on research implementations with focus on model efficiency and accuracy trade-offs'
       ],
-      tags: ['Neural Networks', 'Anomaly Detection', 'Deep Learning', 'Optimization']
+      tags: ['Neural Networks', 'Anomaly Detection', 'Deep Learning', 'Model Optimization']
     },
     {
       title: 'Python Intern',
       company: 'CodeSoft',
       period: '2023',
       description: [
-        'Developed Python-based applications and automation scripts for real-world use cases',
-        'Strengthened programming fundamentals including data structures, logic building, and modular code design',
-        'Implemented efficient and reusable solutions for small-scale software systems',
-        'Gained hands-on experience in software development best practices and debugging techniques'
+        'Developed automation scripts and Python applications for real-world problems',
+        'Strengthened core programming skills including data structures, algorithms, and problem-solving',
+        'Implemented efficient solutions using best practices and clean code principles',
+        'Gained practical experience in software development lifecycle and debugging methodologies'
       ],
-      tags: ['Python', 'Scripting', 'Automation', 'Software Development']
+      tags: ['Python', 'Scripting', 'DSA', 'Automation']
     }
   ]
 

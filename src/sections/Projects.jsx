@@ -4,45 +4,45 @@ import { Github, ExternalLink } from 'lucide-react'
 const Projects = () => {
   const projects = [
     {
-      title: 'Quantum Vision Transformer for Video Anomaly Detection',
-      description: 'Advanced deep learning architecture combining Vision Transformers with quantum-enhanced temporal attention',
-      longDesc: 'Developed a novel deep learning architecture combining Vision Transformers with quantum-enhanced temporal attention. Improved anomaly detection accuracy by effectively capturing spatial and temporal patterns in video data. Implemented using TensorFlow and PyTorch with optimized training pipelines and evaluation strategies. Applicable in surveillance systems, industrial monitoring, and intelligent analytics.',
-      tags: ['TensorFlow', 'PyTorch', 'Quantum ML', 'Computer Vision', 'Transformers', 'Anomaly Detection'],
+      title: 'Quantum Vision Transformer',
+      description: 'Advanced deep learning model for video anomaly detection using quantum-inspired transformer architecture with temporal attention mechanisms',
+      longDesc: 'Advanced deep learning model for video anomaly detection using quantum-inspired transformer architecture with temporal attention mechanisms. The system captures spatial and temporal patterns to detect and localize anomalies in surveillance footage with exceptional accuracy. Deployed for real-time monitoring in surveillance and industrial automation systems.',
+      tags: ['TensorFlow', 'PyTorch', 'Transformers', 'Quantum ML', 'Computer Vision'],
       color: 'from-neon-blue to-neon-purple'
     },
     {
-      title: 'Smart Helmet for Intelligent Vehicle Safety',
-      description: 'IoT-based smart helmet system integrated with multiple safety sensors and emergency alert mechanisms',
-      longDesc: 'Designed and developed an IoT-based smart helmet system to enhance rider safety. Integrated alcohol detection, accident detection, speed monitoring, and real-time GPS tracking. Implemented GSM-based emergency alert system to send live location to emergency contacts. Built using Embedded C, Arduino, and sensor modules ensuring real-time performance and reliability.',
-      tags: ['Embedded C', 'IoT', 'Arduino', 'GSM', 'GPS', 'Sensors', 'Safety Systems'],
+      title: 'Smart Helmet System',
+      description: 'Innovative IoT-based rider safety system with real-time accident and alcohol detection using embedded sensors',
+      longDesc: 'Innovative IoT-based rider safety system with real-time accident and alcohol detection using embedded sensors. The system sends GPS coordinates and SMS alerts to emergency contacts through GSM module integration. Features accident detection, continuous monitoring, and instant emergency notification for comprehensive rider protection on roads.',
+      tags: ['Arduino', 'ESP32', 'IoT', 'GSM', 'GPS', 'Embedded C'],
       color: 'from-neon-purple to-neon-pink'
     },
     {
-      title: 'PCB Defect Detection using Computer Vision',
-      description: 'Automated CNN-based defect detection system for industrial PCB inspection and quality assurance',
-      longDesc: 'Developed an automated defect detection system using deep learning and computer vision techniques. Trained a CNN-based model using TensorFlow for accurate classification of PCB defects. Improved inspection efficiency and reduced manual errors in industrial environments. Real-time processing and high accuracy for production-line deployment.',
-      tags: ['CNN', 'TensorFlow', 'Computer Vision', 'Deep Learning', 'Industrial Automation'],
+      title: 'PCB Defect Detection',
+      description: 'Advanced CNN-based computer vision system for automated PCB defect classification and detection',
+      longDesc: 'Advanced CNN-based computer vision system for automated PCB defect classification and detection. The system analyzes PCB images to identify manufacturing defects with high precision and recall. Significantly improves production quality assurance and reduces manual inspection time in semiconductor manufacturing.',
+      tags: ['TensorFlow', 'CNN', 'Computer Vision', 'Python', 'Deep Learning'],
       color: 'from-neon-pink to-neon-blue'
     },
     {
-      title: 'Smart Pesticide Sprinkler System',
-      description: 'IoT-enabled intelligent agricultural system using deep learning for automated pesticide application',
-      longDesc: 'Built an IoT-enabled intelligent agricultural system using deep learning for plant condition analysis. Automated pesticide spraying based on real-time detection, reducing chemical usage and improving efficiency. Integrated computer vision with IoT modules for smart decision-making and sustainable farming.',
-      tags: ['IoT', 'Deep Learning', 'Computer Vision', 'Agricultural Tech', 'Python'],
+      title: 'Smart Pesticide Sprinkler',
+      description: 'Intelligent agricultural IoT system powered by deep learning for automated plant health analysis and pest control',
+      longDesc: 'Intelligent agricultural IoT system powered by deep learning for automated plant health analysis and pest control. Uses CNN-based plant disease detection to trigger automated pesticide spraying. Significantly reduces chemical usage, minimizes environmental impact, and optimizes crop protection in smart farming applications.',
+      tags: ['Deep Learning', 'IoT', 'Computer Vision', 'Arduino', 'Python'],
+      color: 'from-neon-blue to-neon-pink'
+    },
+    {
+      title: 'Quasi-Elliptic Bandpass FSS',
+      description: 'Precision RF engineering project designing a quasi-elliptic bandpass frequency selective surface optimized for satellite communication',
+      longDesc: 'Precision RF engineering project designing a quasi-elliptic bandpass frequency selective surface optimized for satellite communication systems. Comprehensive electromagnetic simulation using HFSS with parametric sweeps for frequency response optimization. Validated theoretical performance through MATLAB analysis and surface current investigation.',
+      tags: ['HFSS', 'RF Engineering', 'MATLAB', 'Antenna Design', 'EM Simulation'],
       color: 'from-neon-purple to-neon-blue'
     },
     {
-      title: 'Quasi-Elliptic Bandpass Frequency Selective Surface',
-      description: 'High-performance RF engineering design for satellite communication with optimized electromagnetic properties',
-      longDesc: 'Designed a high-performance bandpass FSS structure for satellite communication applications. Simulated electromagnetic behavior using HFSS and performed parametric analysis. Validated frequency response using MATLAB for accuracy and performance optimization. Advanced antenna design for next-generation communication systems.',
-      tags: ['RF Engineering', 'HFSS', 'MATLAB', 'Antenna Design', 'Electromagnetic Simulation'],
-      color: 'from-neon-blue to-neon-purple'
-    },
-    {
-      title: 'House Price Prediction using Machine Learning',
-      description: 'Regression-based ML model for accurate real estate price prediction with feature engineering',
-      longDesc: 'Developed a regression-based machine learning model to predict housing prices. Used real-world datasets with comprehensive feature engineering and model evaluation techniques. Built a simple application interface for user-based predictions. Advanced data analysis and model optimization for real estate analytics.',
-      tags: ['ML', 'Regression', 'Python', 'Data Analysis', 'Scikit-learn'],
+      title: 'House Price Prediction',
+      description: 'Comprehensive machine learning regression model for predicting house prices using real-world real estate datasets',
+      longDesc: 'Comprehensive machine learning regression model for predicting house prices using real-world real estate datasets. Implements complete ML pipeline including exploratory data analysis, feature engineering, model selection, hyperparameter optimization, and performance evaluation.',
+      tags: ['Python', 'Scikit-Learn', 'Machine Learning', 'Data Science', 'Regression'],
       color: 'from-neon-pink to-neon-purple'
     }
   ]

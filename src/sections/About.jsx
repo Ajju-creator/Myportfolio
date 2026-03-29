@@ -31,15 +31,15 @@ const About = () => {
           </motion.p>
 
           <motion.p variants={fadeInUp}>
-            I specialize in <span className="text-neon-purple font-semibold">AI/ML, deep learning, embedded systems, and RF engineering</span>, with hands-on experience building intelligent real-world solutions. My work bridges theoretical knowledge with practical applications across multiple domains.
+            I specialize in <span className="text-neon-purple font-semibold">AI/ML, deep learning, embedded systems, RF engineering, and antenna design</span>, with strong problem-solving skills and hands-on experience in real-world applications. My work bridges theoretical knowledge with practical implementations across multiple domains.
           </motion.p>
 
           <motion.p variants={fadeInUp}>
-            My portfolio includes projects like <span className="text-neon-pink font-semibold">Quantum Vision Transformers</span> for video anomaly detection and IoT-based smart systems such as intelligent helmets and automated irrigation systems.
+            My portfolio includes <span className="text-neon-pink font-semibold">Quantum Vision Transformers</span> for video anomaly detection, IoT-based smart systems, RF frequency selective surfaces, and machine learning models that solve complex real-world problems.
           </motion.p>
 
           <motion.p variants={fadeInUp}>
-            I am passionate about integrating hardware and software to create impactful innovations. Whether it's designing neural networks, developing embedded firmware, or optimizing IoT solutions, I am committed to pushing the boundaries of technology.
+            I am passionate about integrating hardware and software to build innovative and impactful solutions. Whether designing neural networks, developing embedded firmware, optimizing RF systems, or solving algorithmic challenges, I am committed to pushing technological boundaries.
           </motion.p>
 
           <motion.div 
