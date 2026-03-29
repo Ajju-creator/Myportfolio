@@ -1,13 +1,20 @@
 # Ajay Bhashaveni - Portfolio
 
-A modern, responsive portfolio website showcasing professional resumes and experience.
+A modern, responsive portfolio website showcasing professional resumes, experience, and coding profiles.
+
+## 👤 About Me
+
+I am an Electronics and Communication Engineering student at SR University with a CGPA of 9.93, passionate about building intelligent systems that combine AI, deep learning, and embedded technologies.
+
+**Skills**: Python | TensorFlow | PyTorch | Embedded C | IoT | Machine Learning | Deep Learning | Data Structures & Algorithms
 
 ## 📋 Portfolio Contents
 
 - **Professional Resume** - Comprehensive resume with detailed experience and accomplishments
 - **Core Resume** - Concise resume highlighting key competencies and achievements
+- **Coding Profiles** - LeetCode, GitHub, and LinkedIn profiles
 - **Professional Information** - About section with skills and expertise
-- **Contact Information** - Social links and connection options
+- **Contact Information** - Multiple ways to reach out
 
 ## 🌐 Live Portfolio
 
@@ -31,10 +38,12 @@ Portfolio/
 ## 🚀 Features
 
 - **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
-- **Modern UI** - Clean, professional interface with smooth animations
+- **Modern UI** - Clean, professional interface with smooth animations and hover effects
 - **Easy Resume Access** - View and download both resumes directly
-- **Social Integration** - Quick links to GitHub, LinkedIn, and email
-- **Optimized Performance** - Fast loading with minimal dependencies
+- **Coding Profiles** - Links to LeetCode, GitHub, and LinkedIn
+- **Social Integration** - Quick links with glow effects on hover
+- **Smooth Scrolling** - Elegant navigation between sections
+- **Animation Effects** - Fade-in animations as you scroll
 
 ## 💻 Technologies Used
 
@@ -42,12 +51,13 @@ Portfolio/
 - CSS3 (with Flexbox and Grid)
 - Vanilla JavaScript
 - Font Awesome Icons
+- Responsive Design Patterns
 
 ## 🔧 Installation & Setup
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Ajju-creator/Myportfolio.git
+git clone https://github.com/Ajaybhashaveni/Myportfolio.git
 cd Myportfolio
 ```
 
@@ -55,27 +65,37 @@ cd Myportfolio
 - Double-click `index.html` or
 - Use a local server: `python -m http.server 8000`
 
-## 📝 Custom Modifications
+## 📝 Customization
 
 To customize this portfolio:
 
-1. **Update Personal Info** - Edit the contact section in `index.html`
+1. **Update Personal Info** - Edit contact section and about section in `index.html`
 2. **Change Colors** - Modify CSS variables in `css/style.css` (`:root` section)
 3. **Update Resumes** - Replace PDF files in `resumes/` folder
-4. **Add Content** - Modify sections in `index.html`
+4. **Update Profile Links** - Change GitHub, LinkedIn, and LeetCode URLs
+5. **Add Content** - Modify sections in `index.html`
 
 ## 🎯 Quick Links
 
 - **Portfolio**: [https://portt-tan.vercel.app/](https://portt-tan.vercel.app/)
-- **GitHub**: [https://github.com/Ajju-creator/Myportfolio](https://github.com/Ajju-creator/Myportfolio)
-- **My Profile**: [https://github.com/Ajju-creator](https://github.com/Ajju-creator)
+- **GitHub**: [https://github.com/Ajaybhashaveni](https://github.com/Ajaybhashaveni)
+- **LinkedIn**: [https://www.linkedin.com/in/ajay-bhashaveni-3a2aa8288](https://www.linkedin.com/in/ajay-bhashaveni-3a2aa8288)
+- **LeetCode**: [https://leetcode.com/u/BAjay_1012/](https://leetcode.com/u/BAjay_1012/)
 
 ## 📧 Contact
 
-For inquiries and opportunities, feel free to reach out through:
-- Email: your-email@example.com
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [@Ajju-creator](https://github.com/Ajju-creator)
+For inquiries and opportunities, feel free to reach out:
+- **Email**: bhashaveniajayyadav@gmail.com
+- **GitHub**: [@Ajaybhashaveni](https://github.com/Ajaybhashaveni)
+- **LinkedIn**: [Ajay Bhashaveni](https://www.linkedin.com/in/ajay-bhashaveni-3a2aa8288)
+- **LeetCode**: [BAjay_1012](https://leetcode.com/u/BAjay_1012/)
+
+## 🎓 Experience
+
+- **NIT Warangal** - Deep Learning Intern (Quantum Vision Transformer)
+- **GemalNet** - AI/ML Intern
+- **QManet** - Deep Learning Intern
+- **Codesoft** - Python Intern
 
 ## 📄 License
 

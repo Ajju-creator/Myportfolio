@@ -35,6 +35,14 @@ document.querySelectorAll('.resume-card').forEach(card => {
     observer.observe(card);
 });
 
+// Observe profile cards
+document.querySelectorAll('.profile-card').forEach(card => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateY(20px)';
+    card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    observer.observe(card);
+});
+
 // Observe skills
 document.querySelectorAll('.skills-list li').forEach((item, index) => {
     item.style.opacity = '0';
