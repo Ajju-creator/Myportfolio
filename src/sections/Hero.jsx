@@ -43,6 +43,31 @@ export default function Hero() {
         initial="hidden"
         animate="visible"
       >
+        {/* Profile Photo */}
+        <motion.div 
+          className="mb-12 flex justify-center"
+          variants={item}
+        >
+          <div className="relative w-48 h-48 sm:w-56 sm:h-56">
+            {/* Animated Border Ring */}
+            <motion.div 
+              className="absolute inset-0 border-2 border-neon-blue rounded-full opacity-50"
+              animate={{ rotate: 360 }}
+              transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
+            ></motion.div>
+            
+            {/* Glow Effect */}
+            <div className="absolute inset-0 bg-gradient-to-r from-neon-blue via-neon-purple to-neon-pink opacity-20 rounded-full blur-lg"></div>
+            
+            {/* Profile Image */}
+            <img 
+              src="/profile.jpg" 
+              alt="Bhashaveni Ajay"
+              className="w-full h-full object-cover rounded-full border-4 border-dark-900 shadow-2xl"
+            />
+          </div>
+        </motion.div>
+
         {/* Name */}
         <motion.h1 
           className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 gradient-text"
