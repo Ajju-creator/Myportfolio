@@ -18,6 +18,11 @@ const Skills = () => {
       skills: ['Arduino', 'ESP32', 'GSM', 'GPS', 'Sensors']
     },
     {
+      title: 'RF Engineering',
+      color: 'from-neon-blue to-neon-pink',
+      skills: ['HFSS', 'HSpice', 'Antenna Design', 'FSS', 'Electromagnetic Simulation']
+    },
+    {
       title: 'Tools & Platforms',
       color: 'from-neon-blue to-neon-purple',
       skills: ['LTSpice', 'HSpice', 'Tinkercad', 'Xilinx ISE', 'Cadence']
@@ -100,6 +105,7 @@ const Skills = () => {
             { name: 'AI/ML & Deep Learning', level: 90 },
             { name: 'Embedded Systems', level: 85 },
             { name: 'IoT & Robotics', level: 85 },
+            { name: 'RF Engineering & Antenna Design', level: 80 },
           ].map((skill, idx) => (
             <div key={idx}>
               <div className="flex justify-between mb-2">

@@ -31,7 +31,7 @@ const About = () => {
           </motion.p>
 
           <motion.p variants={fadeInUp}>
-            I specialize in <span className="text-neon-purple font-semibold">AI/ML, deep learning, and embedded systems</span>, with hands-on experience building intelligent real-world solutions. My work bridges theoretical knowledge with practical applications.
+            I specialize in <span className="text-neon-purple font-semibold">AI/ML, deep learning, embedded systems, and RF engineering</span>, with hands-on experience building intelligent real-world solutions. My work bridges theoretical knowledge with practical applications across multiple domains.
           </motion.p>
 
           <motion.p variants={fadeInUp}>
